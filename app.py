@@ -12,7 +12,6 @@ import ast
 import json
 
 app = Flask(__name__)
-application = app
 
 # Load environment variables
 load_dotenv()
