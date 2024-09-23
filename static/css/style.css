@@ -1,0 +1,237 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 251, 253);
+    scroll-behavior: smooth; 
+    scroll-snap-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: #021526;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-title {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    margin-right: 100px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 0px;
+    color: white;
+    text-decoration: none;
+    font-weight: unset;
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+}
+
+section {
+    height: 70vh;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
+.nav-item.active {
+    color: #A0C4FF; /* Change to any color you prefer */
+    font-weight: bold;
+}
+
+#resume {
+    background-color: white;
+}
+
+#info {
+    background-color: #b5e6c6;
+}
+
+#job {
+    background-color: #d6d6d6;
+}
+
+#item {
+    background-color: #b5e6c6;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.welcome-text {
+    margin-top: 10px;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 1.05rem;
+}
+.home-image {
+    flex: 1;
+    text-align: right;
+}
+.home-image img {
+    width: 850px;
+    margin-top: 25px;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, sans-serif;
+}
+
+.input-field {
+    width: 700px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 18px;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #021526;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #021526;
+    color: #A0C4FF;
+}
+
+.item {
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+.job-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.job-box {  
+    background-color: #ddddddcc;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    height: 280px;
+    width: 180px;
+    margin-top: 20px;
+}
+
+.img-jobs img {
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 12px;
+}
+
+.job-info {
+    margin-top: 0px;
+    font-size: 0.8rem;
+}
+
+.job-info h2 {
+    margin: 10px;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.job-info p {
+    margin: 5px 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.cer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cer-box {  
+    background-color: #ddddddcc;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    height: 320px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.img-cers {
+    margin-right: 0px;
+}
+
+.img-cers img {
+    margin-top: 0px;
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+    float: none;
+}
+
+.cer-info {
+    font-size: 0.8rem;
+    text-align: center  ;
+    font-family: Verdana, sans-serif;
+}
+
+.cer-info h2 {
+    padding: 0;
+    font-size: 1rem;
+}
+
+.cer-info p {
+    padding: 0;
+    line-height: 0.8;
+}
+
